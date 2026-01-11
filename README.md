@@ -47,3 +47,4 @@ This repo is part of a larger, opinionated infrastructure demonstration. See the
 	  **/*.json
 	  ```
 	- This ensures runs only trigger when .tf or .json files (including those in subdirectories) change.
+    - make sure to click "update VCS settings" button or the settings are not applied
