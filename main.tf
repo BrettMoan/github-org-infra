@@ -1,4 +1,11 @@
-terraform {
+terraform { 
+  cloud { 
+    organization = "brettmoan" 
+    workspaces { 
+      name = "github-org-infra" 
+    } 
+  } 
+  
   required_version = ">= 1.0.0"
   required_providers {
     github = {
