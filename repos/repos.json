@@ -1,0 +1,56 @@
+[
+  {
+    "name": "github-org-infra",
+    "description": "Manage GitHub org, repos, teams, and settings via Terraform.",
+    "visibility": "public",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_projects": false,
+    "auto_init": true
+  },
+  {
+    "name": "iam-oidc-permissions",
+    "description": "Manage AWS IAM roles, policies, and OIDC trust for CI/CD.",
+    "visibility": "public",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_projects": false,
+    "auto_init": true
+  },
+  {
+    "name": "frontend-app",
+    "description": "Static front-end app infra and deployment.",
+    "visibility": "public",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_projects": false,
+    "auto_init": true
+  },
+  {
+    "name": "network-config",
+    "description": "DNS, subdomain, and routing infra.",
+    "visibility": "public",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_projects": false,
+    "auto_init": true
+  },
+  {
+    "name": "backend-api",
+    "description": "Serverless backend API infra.",
+    "visibility": "public",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_projects": false,
+    "auto_init": true
+  },
+  {
+    "name": "reporting-analytics",
+    "description": "Reporting and analytics infra.",
+    "visibility": "public",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_projects": false,
+    "auto_init": true
+  }
+]
