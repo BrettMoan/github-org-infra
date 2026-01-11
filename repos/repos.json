@@ -19,7 +19,7 @@
   },
   {
     "name": "frontend-app",
-    "description": "Static front-end app infra and deployment.",
+    "description": "Static front-end app infrastructure and deployment.",
     "visibility": "public",
     "has_issues": true,
     "has_wiki": false,
@@ -28,7 +28,7 @@
   },
   {
     "name": "network-config",
-    "description": "DNS, subdomain, and routing infra.",
+    "description": "DNS, subdomain, and routing infrastructure.",
     "visibility": "public",
     "has_issues": true,
     "has_wiki": false,
@@ -37,7 +37,7 @@
   },
   {
     "name": "backend-api",
-    "description": "Serverless backend API infra.",
+    "description": "Serverless backend API infrastructure.",
     "visibility": "public",
     "has_issues": true,
     "has_wiki": false,
@@ -46,7 +46,7 @@
   },
   {
     "name": "reporting-analytics",
-    "description": "Reporting and analytics infra.",
+    "description": "Reporting and analytics infrastructure.",
     "visibility": "public",
     "has_issues": true,
     "has_wiki": false,
