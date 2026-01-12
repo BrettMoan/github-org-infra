@@ -8,3 +8,6 @@ resource "github_repository" "this" {
   auto_init   = var.auto_init
   # Add more options as needed
 }
+
+
+# TODO: Add branch protection rules, webhooks, and other repository settings as needed.
