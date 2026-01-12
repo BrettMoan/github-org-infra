@@ -55,7 +55,7 @@ resource "github_branch_protection" "this" {
 }
 
 resource "github_repository_webhook" "this" {
-  for_each = { for idx, webhook in var.webhooks : idx => webhook }
+  for_each = { for webhook in var.webhooks : webhook.url => webhook }
 
   repository = github_repository.this.name
   active     = each.value.active

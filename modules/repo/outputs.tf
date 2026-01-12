@@ -3,7 +3,7 @@ output "repository" {
 }
 
 output "branch_protection" {
-  value       = var.branch_protection != null ? github_branch_protection.this[0] : null
+  value       = one(github_branch_protection.this)
   description = "Branch protection configuration"
 }
 
